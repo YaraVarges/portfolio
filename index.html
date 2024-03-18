@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./assets/favicon/favicon-32x32.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <title>Yara Varges | Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="logo">
+                <p class="nav-name"><a href="#home">YV</a></p>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav-list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#about" class="nav-link">Sobre mim</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#projects" class="nav-link">Projetos</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#contact" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="responsiveSideMenu()"></i>
+            </div>
+        </nav>
+
+        <main class="main">
+
+            <section class="home" id="home">
+
+                <div class="home-text">
+                    <div class="home-name">
+                        <p>Olá, sou Yara Varges</p>
+                        <p><span class="textWriting"></span></p>
+                    </div>
+                    <div class="home-text-info">
+                        <p>Desenvolvedora Front-End cativada pela criação de experiências digitais. Acredito que o crescimento vem da coragem de enfrentar desafios, e é isso que me motiva a buscar constantemente projetos que me desafiem a crescer e evoluir. 
+                        </p>
+                    </div>
+                    <div class="social-icons">
+                        <div class="icon">
+                            <a href="https://www.instagram.com/yara.varges/" target="_blank" rel="noopener noreferrer">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/yara-varges-523887144/" target="_blank" rel="noopener noreferrer">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://github.com/YaraVarges" target="_blank" rel="noopener noreferrer">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home-image">
+                    <div class="image">
+                        <img src="./assets/images/profile.jpg" alt="avatar">
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>Sobre mim</h1>
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <div class="about-info">
+                            <h3>Introdução</h3>
+                            <p>Formada em Bacharel de Sistemas de Informação e Técnica em Informática pelo IFBA -
+                                Instituto Federal de Educação da Bahia, com experiência prática nas tecnologias de
+                                JavaScript, React JS, TypeScript e MySQL. Atualmente, estou focada em aprimorar meus
+                                conhecimentos desenvolvendo projetos significativos e relevantes. Expandir meu horizonte e me tornar uma desenvolvedora fullstack, unindo minha habilidade front-end com uma compreensão sólida do back-end.
+                                <br>
+                                Ao longo do caminho, aprendi que a coragem é essencial, e isso me inspira diariamente.
+                                Como disse Neil Gaiman em "Coraline e o Mundo Secreto": <span class="italic">"Quando
+                                    você tem medo e faz mesmo assim, isso é coragem."</span>
+                            </p>
+                            <div class="about-btn">
+                                <button class="btn"><a
+                                        href="https://drive.google.com/file/d/1x-vsM0vQeQwQI6NLNSuuOEaYcuU1WF0K/view?usp=sharing"
+                                        target="_blank" rel="noreferrer noopener">Download CV <i
+                                            class="uil uil-file-alt"></i></a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>FrontEnd</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>ReactJS</span>
+                                <span>JavaScript</span>
+                                <span>Angular</span>
+                                <span>Tailwind CSS</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>BackEnd</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>NodeJS</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Mobile</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>React Native</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projetos</h1>
+                </div>
+
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-img">
+                                <img src="/assets/images/site-votoseversos.png" alt="">
+                            </div>
+                            <div class="swiper-slide-description">
+                                <h3>Votos & Versos</h3>
+                                <label>Site do grupo musical Votos & Versos. Uma celebração da arte musical que combina votos de amor com versos envolventes. Divulgação de agenda, eventos e videos de perfomances.</label>
+                            </div>
+                            <div class="swiper-slide-button">
+                                <button class="swiper-button"><a href="https://yaravarges.github.io/votoseversos-site/" target="_blank" rel="noopener noreferrer">Acesse aqui <i class="uil uil-import"></i> </a></button>
+
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-img">
+                                <img src="/assets/images/site-amicroches.png" alt="">
+                            </div>
+                            <div class="swiper-slide-description">
+                                <h3>AmiCrochês</h3>
+                                <label>Site AmiCrochês, sobre o universo dos amigurumis. Explora sobre pelúcias feitas à mão, onde cada ponto se transforma em personagens adoráveis e coloridos.</label>
+                            </div>
+                            <div class="swiper-slide-button">
+                                <button class="swiper-button"><a href="https://yaravarges.github.io/amicroches-site/" target="_blank" rel="noopener noreferrer">Acesse aqui <i class="uil uil-import"></i> </a></button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-img">
+                                <img src="/assets/images/site-rickandmorty.png" alt="">
+                            </div>
+                            <div class="swiper-slide-description">
+                                <h3>Rick and Morty Dex</h3>
+                                <label>Projeto desenvolvido durante o curso da DIO. Um catálogo de personagens do multiverso Rick and Morty, explorando diversas características dos personagens.</label>
+                            </div>
+                            <div class="swiper-slide-button">
+                                <button class="swiper-button"><a href="https://yaravarges.github.io/rick-morty/" target="_blank" rel="noopener noreferrer">Acesse aqui <i class="uil uil-import"></i> </a></button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-img">
+                                <img src="/assets/images/site-gerador.png" alt="">
+                            </div>
+                            <div class="swiper-slide-description">
+                                <h3>Gerador de Senhas</h3>
+                                <label>Site que cria senhas robustas com facilidade, garantindo a proteção de suas contas online. Além disso, simplifique a geração de códigos QR personalizados para diversas finalidades.</label>
+                            </div>
+                            <div class="swiper-slide-button">
+                                <button class="swiper-button"><a href="https://yaravarges.github.io/utilitario/senhas/index.html" target="_blank" rel="noopener noreferrer">Acesse aqui <i class="uil uil-import"></i> </a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </section>
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Contato</h1>
+                </div>
+                <div class="row">
+                    <div class="contact-info">
+                        <h2>Como me contactar <i class="uil uil-corner-right-down"></i></h2>
+                        <p><i class="uil uil-envelope"></i>varges98@gmail.com</p>
+                        <p><i class="uil uil-whatsapp"></i> +55 77 9 8834 3280</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <div class="scroll-icon-box">
+            <a href="#home" class="scroll-btn">
+                <span class="uil uil-arrow-up"></span>
+            </a>
+        </div>
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+
+            <div class="bottom-footer">
+                <p>Copyright &copy; 2023-2026.
+                    <a href="https://github.com/YaraVarges" target="_blank" rel="noreferrer noopener">Desenvolvido por
+                        <strong>Yara Varges</strong></a>. All rights reserved.
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Scripts Files -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- JS File -->
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>

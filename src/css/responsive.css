@@ -1,0 +1,234 @@
+@media only screen and (max-width: 1024px) {
+    .home-text {
+        padding: 0;
+    }
+
+    .image,
+    .image img {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .nav-button {
+        display: none;
+    }
+
+    .nav-menu.responsive {
+        left: 0;
+        text-align: center;
+        background-color: #131212da;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(20px);
+        width: 100%;
+        min-height: 450px;
+        height: 90vh;
+        transition: .3s;
+    }
+
+    .nav_menu_list {
+        flex-direction: column;
+    }
+
+    .nav-menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .home-text {
+        width: 100%;
+        order: 2;
+        justify-content: center;
+        align-content: flex-start;
+        min-height: 60vh;
+    }
+
+    .social-icons {
+        margin-top: 2em;
+    }
+
+    .home-image {
+        order: 1;
+        justify-content: center;
+        min-height: 150px;
+        width: 100%;
+        margin-top: 65px;
+    }
+
+    .image,
+    .image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .col {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about-info,
+    .contact-info {
+        width: 100%;
+    }
+
+    .project-container {
+        justify-content: center;
+    }
+
+    .project-box {
+        width: 80%;
+    }
+
+    .swiper {
+        width: 90%;
+        height: 500px;
+    }
+
+    .swiper img {
+        height: 90%;
+        border-radius: 10px;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .swiper-slide {
+        border-radius: 10px;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .swiper-slide-img {
+        text-align: center;
+        max-width: 90%;
+        margin-left: 5%;
+        height: 50%;
+    }
+
+    .swiper-slide-description {
+        text-align: justify;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+
+    #contact .row {
+        width: 60%;
+        margin-left:20%;
+    }
+
+}
+
+@media only screen and (max-width: 540px) {
+    .home-name p {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .textWriting {
+        font-size: 20px;
+    }
+
+    .home-text-info p {
+        text-align: justify;
+    }
+
+    .home-text-btn,
+    .social-icons {
+        justify-content: center;
+    }
+
+    .about-btn {
+        margin-top: 20px;
+    }
+
+    .project-box {
+        width: 100%;
+    }
+
+    .form-inputs {
+        flex-direction: column;
+    }
+
+    .input-field {
+        width: 100%;
+    }
+
+    .swiper img {
+        max-width: 90%;
+        max-height: 70%;
+        margin-top: 5px;
+    }
+
+    .swiper-slide-img {
+        margin-bottom: -50px;
+    }
+
+    .swiper-slide h3 {
+        font-size: 13px;
+    }
+
+    .swiper-slide-description {
+        font-size: 11px;
+        max-width: 85%;
+        margin-left: 7%;
+    }
+
+    .swiper-button {
+        padding: 10px 18px;
+    }
+
+    .swiper-button,
+    .swiper-button i {
+        font-size: 11px;
+
+    }
+
+    .swiper-slide-button {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact .row {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .contact-info {
+        width: 100%;
+        padding: 10px 10px;
+        display: flex;
+    }
+
+    .contact-info h2 {
+        text-align: center;
+    }
+
+    footer {
+        height: 50%;
+    }
+
+}
