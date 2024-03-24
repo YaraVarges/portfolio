@@ -32,7 +32,6 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
-
 //ScrollReveal
 const sr = ScrollReveal({
   origin: 'top',
@@ -49,7 +48,6 @@ sr.reveal('.social-icons', { delay: 200 })
 sr.reveal('.home-image', { delay: 300 })
 sr.reveal('.project-box', { interval: 200 })
 
-
 const srLeft = ScrollReveal({
   origin: 'left',
   distance: '80px',
@@ -59,7 +57,6 @@ const srLeft = ScrollReveal({
 srLeft.reveal('.about-info', { delay: 100 })
 srLeft.reveal('.contact-info', { delay: 100 })
 
-
 const srRight = ScrollReveal({
   origin: 'right',
   distance: '80px',
@@ -68,8 +65,6 @@ const srRight = ScrollReveal({
 })
 srRight.reveal('.skills-box', { delay: 100 })
 srRight.reveal('.form-control', { delay: 100 })
-
-
 
 //Scroll Active
 const sections = document.querySelectorAll('section[id]')
